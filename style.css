@@ -24,6 +24,10 @@ nav ul,li{
     height: 40px;
 }
 
+img {
+    border-radius: 10%;
+  }
+
 #name{
     font-family: 'roboto';
     font-weight: 700;
