@@ -63,6 +63,7 @@ img {
     color: #bcfd5b;
     font-family: 'Roboto';
     font-weight: 700;
+    text-align: center;
 }
 
 #content h2{
@@ -78,7 +79,11 @@ img {
         display: none;
     }
     #content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         max-width: 80%;
+        margin: 10%;
     }
     nav{
         justify-content: center;
@@ -88,7 +93,10 @@ img {
         flex-direction: column;
         align-content: center;
     }
-
+    #photo{
+        max-width: 300px;
+        align-self: center;
+    }
     button{
         width: 200px;
     }
