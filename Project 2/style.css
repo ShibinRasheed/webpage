@@ -1,0 +1,87 @@
+#mainbody{
+  color:white;
+  background-color: black;
+ 
+}
+
+
+.nav-link{
+  color: white;
+}
+
+.mainfont{
+  font-family: 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  background: linear-gradient(90deg, #A868DF 2.32%, #D96554 50.41%, #D78B43 97.78%);
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+}
+
+.fontstyle{
+  font-family: 'Hiragino Kaku Gothic Std', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0em;
+
+}
+
+.subfont{
+
+font-family: 'Hiragino Kaku Gothic Std';
+font-style: normal;
+font-weight: 800;
+font-size: 23px;
+line-height: 34px;
+
+color: #FFFFFF;
+
+
+}
+
+.parafont{
+  font-family:'Hiragino Kaku Gothic', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.btn_design{
+
+
+
+
+/* main */
+background: linear-gradient(90deg, #A868DF 2.32%, #D96554 50.41%, #D78B43 97.78%);
+border-radius: 15px;
+transform: rotate(0deg);
+
+color:white;
+font-family: 'Hiragino Kaku Gothic ';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+}
+#pic{
+  padding: 50px;
+}
+
+@media (max-width:800px) {
+  
+  #pic{
+    width: 320px;
+  }
+
+}
+
