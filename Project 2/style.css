@@ -1,24 +1,29 @@
-#mainbody{
-  color:white;
-  background-color: black;
- 
+body{
+    color: white;
+    background-color: black;
+  
 }
 
-
-.nav-link{
+.nav-link {
   color: white;
 }
 
-.mainfont{
+.mainfont {
   font-family: 'Hiragino Kaku Gothic Std', sans-serif;
   font-style: normal;
   font-weight: 800;
-  background: linear-gradient(90deg, #A868DF 2.32%, #D96554 50.41%, #D78B43 97.78%);
-            -webkit-text-fill-color: transparent; 
-            -webkit-background-clip: text; 
+  background: linear-gradient(
+    90deg,
+    #a868df 2.32%,
+    #d96554 50.41%,
+    #d78b43 97.78%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding: inherit  ;
 }
 
-.fontstyle{
+.fontstyle {
   font-family: 'Hiragino Kaku Gothic Std', sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -27,61 +32,162 @@
   font-weight: 800;
   line-height: 36px;
   letter-spacing: 0em;
+}
+
+.subfont {
+  font-family: 'Hiragino Kaku Gothic Std';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 23px;
+  line-height: 34px;
+
+  color: #ffffff;
+}
+
+
+
+.btn_design {
+  /* main */
+  background: linear-gradient(
+    90deg,
+    #a868df 2.32%,
+    #d96554 50.41%,
+    #d78b43 97.78%
+  );
+  border-radius: 15px;
+  transform: rotate(0deg);
+
+  color: white;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.btn_resume {
+  border-radius: 15px;
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(45deg, slateblue, coral) border-box;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.btn_shaping{
+  margin: 10px ;
+  max-width: 35vb;
+  height: 50px;
+}
+
+.downIconPad{
+  padding-left: 2px;
+}
+
+.center_img{
+
+  padding: 10px;
+  display: flex;
+  justify-content: center;
 
 }
 
-.subfont{
-
-font-family: 'Hiragino Kaku Gothic Std';
-font-style: normal;
-font-weight: 800;
-font-size: 23px;
-line-height: 34px;
-
-color: #FFFFFF;
-
-
-}
-
-.parafont{
-  font-family:'Hiragino Kaku Gothic', Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: 100;
-  line-height: 18px;
-  letter-spacing: 0em;
-  text-align: center;
-
-}
-
-.btn_design{
-
-
-
-
-/* main */
-background: linear-gradient(90deg, #A868DF 2.32%, #D96554 50.41%, #D78B43 97.78%);
-border-radius: 15px;
-transform: rotate(0deg);
-
-color:white;
-font-family: 'Hiragino Kaku Gothic ';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
-
-
-}
-#pic{
+#mainpic {
   padding: 50px;
+  max-width: 600px;
 }
 
-@media (max-width:800px) {
+#secondpic {
+  max-width: 500px;
+  margin: 50px;
+}
+.parafont {
+  font-family: 'Hiragino Kaku Gothic', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: start;
+  padding: 0px 10%;
+}
+
+.strip{
   
-  #pic{
+  background: linear-gradient(
+    90deg,
+    #a868df 2.32%,
+    #d96554 50.41%,
+    #d78b43 97.78%
+  );
+
+
+}
+
+.marquee {
+  --gap : 1 rem;
+  display: flex;
+  
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
+
+}
+
+.marquee_content{
+  
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-around;
+  height: inherit;
+  min-width: 100%;
+  gap:var(--gap);
+  list-style-type: none;
+  margin: 10px 0px;
+
+}
+
+#theform .form_style{
+  color: white;
+}
+
+#theform .form_style::placeholder{
+  color: white;
+  opacity: 1;
+}
+#theform .form_style:focus{
+  color: white;
+  opacity: 1;
+  background-color: #000;
+  border: none;
+  border-bottom: solid white;
+}
+.form_style{
+  
+  background-color: #000;
+  border: none;
+  border-bottom: solid white;
+}
+
+::placeholder{
+  color: white;
+  opacity: 1;
+}
+
+@media (max-width: 800px) {
+  #pic {
     width: 320px;
   }
-
 }
 
+
+@keyframes scroll{
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(calc(-100% - 1rem) );
+  }
+}
+
+.scroll{
+  animation: scroll 10s linear infinite;
+}

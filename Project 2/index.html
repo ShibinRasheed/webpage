@@ -11,7 +11,7 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
   <title>Document</title>
 
@@ -19,19 +19,19 @@
 
 <body>
 
-  <div class="container-fluid" id="mainbody" >
+  <div class="container-fluid">
 
-    <nav class="navbar navbar-expand-lg text-white" >
+    <nav class="navbar navbar-expand-lg text-white">
 
       <div class="container-fluid">
 
-        <a  class="navbar-brand fontstyle" id="name" href="#"><span class="mainfont">Shibin</span>.me</a>
+        <a class="navbar-brand fontstyle" id="name" href="#"><span class="mainfont">Shibin</span>.me</a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCloser"
           aria-controls="navbarCloser" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        
+
         <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarCloser">
 
           <ul class="navbar-nav ">
@@ -44,89 +44,164 @@
             </li>
 
           </ul>
-          
+
           <button class="btn btn_design" type="submit">Contact Me</button>
-          
+
         </div>
-        
+
     </nav>
 
     <div class="container-fluid">
 
       <div class="row d-lg-flex flex-lg-row-reverse">
 
-        <img src="pic.png" id="pic" class="rounded-4 mx-auto " alt="..." >
-        
-        <h1 class="text-center mainfont">Hello, I'm Shibin</h1>
-        <h2 class="text-center subfont">Web developer</h2>
+        <div class="row d-lg-flex flex-row-reverse">
 
-        <p class="parafont">
-          A passionate web developer with a relentless drive for transforming ideas into not just websites, but digital experiences that captivate and resonate. In the realm of coding, I've discovered the art of crafting not just lines of code, but intricate digital landscapes that blend beauty with functionality.
-        </p>
+          <img src="pic.png" id="mainpic" class="rounded-4 mx-auto col-sm-12 col-lg-6" alt="...">
 
-        <p class="parafont"> Let's create something remarkable together.</p>
+          <div class="col-sm-12 col-lg-6 d-lg-flex flex-lg-column justify-content-center -items-center">
+
+            <h1 class=" text-center  mainfont">Hello, I'm Shibin</h1>
+            <h2 class="text-center subfont ">Web developer</h2>
+            <div>
+              <p class="parafont ">
+                A passionate web developer with a relentless drive for transforming ideas into not just websites, but
+                digital experiences that captivate and resonate. In the realm of coding, I've discovered the art of
+                crafting
+                not just lines of code, but intricate digital landscapes that blend beauty with functionality.
+              </p>
+              <p class="parafont"> Let's create something remarkable together.</p>
+
+              <div class="col d-flex flex-lg-row justify-content-center flex-column align-items-center">
+
+                <button class="btn btn_design btn_shaping col-4 " type="submit">Contact Me</button>
+
+                <button class="btn  btn_resume text-white btn_shaping col-4" type="submit">Download Resume 
+                  <span class="dwnld_btn">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download downIconPad" viewBox="0 0 16 16">
+                      <path  d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
+                      <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                    </svg>
+                    
+                  </span>
+                </button>
+
+              </div>
+
+            </div>
 
 
-        <div class="d-grid gap-2 col-9 mx-auto">
+          </div>
 
-          <button class="btn btn_design  " type="submit">Contact Me</button>
 
-          <button class="btn " type="submit">Download Resume</button>
-    
+
         </div>
 
-        <h2 class="text-center fontstyle">About Me</h2>
 
-        <img src="pic.png" id="pic" class="rounded-4 mx-auto " alt="..." >
 
-        <p class="parafont">
-          Hey there! I'm Elsa, a self-taught web developer based [your location]. My journey into the world of coding started [mention how you got into web development]. I thrive on challenges and am always eager to learn something new.
-        </p>
 
-        <p class="parafont">
-          In this dynamic world of web development, I find my passion in crafting digital solutions that not only meet but exceed expectations. Eager to embrace the unknown, I'm always on the lookout for innovative ways to elevate my skills and bring fresh perspectives to every project.
-        </p>
-        
-        <h2 class="text-center fontstyle">What I Do</h2>
-
-        <div>
-
-          <img src="pic.png" id="pic" class="rounded-4 mx-auto " alt="..." >
-          <img src="pic.png" id="pic" class="rounded-4 mx-auto " alt="..." >
-          <img src="pic.png" id="pic" class="rounded-4 mx-auto " alt="..." >
-          <img src="pic.png" id="pic" class="rounded-4 mx-auto " alt="..." >
-          
-          
-        </div>
-        
-        <h2 class="text-center fontstyle">Get in Touch</h2>
-
-        <form>
-          
-          <div class="mb-3">
-            <input type="text" class="form-control" id="firstname" placeholder="Name">
-          </div>
-          <div class="mb-3">
-            <input type="text" class="form-control" id="lastname" placeholder="Last Name">
-          </div>
-          <div class="mb-3">
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-          </div>
-          <div class="mb-3">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-          </div>
-          
-        </form>
-        
-        <div class="d-grid gap-2 col-9 mx-auto">
-
-          <button class="btn btn_design" type="submit">Contact Me</button>
-  
-        </div>
 
       </div>
+
+
+      <div class="strip marquee ">
+
+        <ul class="marquee_content scroll">
+          <li>Passion</li>
+          <li>Web development</li>
+          <li>Design</li>
+          <li>Operations</li>
+        </ul>
+
+        <ul class="marquee_content scroll" aria-hidden="true">
+          <li>Passion</li>
+          <li>Web development</li>
+          <li>Design</li>
+          <li>Operations</li>
+        </ul>
+        
+      </div>
+
+
       
+
+      <div class="row d-lg-flex flex-row">
+
+        <img src="pic.png" id="secondpic" class="rounded-4  mx-auto col-sm-12 col-lg-6 d-flex flex-lg-row " alt="...">
+
+        <div class="col-sm-12 col-lg-6 d-lg-flex flex-lg-column justify-content-center ">
+        
+          <h2 class=" text-center  fontstyle col-sm-12 ">About Me</h2>
+
+        <p class="parafont">
+          
+          Hey there! I'm Shibin Rasheed, a self-taught web developer based payyoli. My journey into the world of coding
+          started [mention how you got into web development]. I thrive on challenges and am always eager to learn
+          something new.
+        </p>
+  
+        <p class="parafont">
+          In this dynamic world of web development, I find my passion in crafting digital solutions that not only meet
+          but exceed expectations. Eager to embrace the unknown, I'm always on the lookout for innovative ways to
+          elevate my skills and bring fresh perspectives to every project.
+        </p>
+        
+        </div>
+        
+      </div>
+
+      
+
+      <h2 class=" my-3 fontstyle">What I Do</h2>
+
+      <div class="row">
+
+        <img src="2.png" class="col-sm-12 col-md-6 col-lg-3 rounded-4 center_img" alt="...">
+        <img src="3.png" class="col-sm-12 col-md-6 col-lg-3 rounded-4 center_img" alt="...">
+        <img src="1.png" class="col-sm-12 col-md-6 col-lg-3 rounded-4 center_img" alt="...">
+        <img src="4.png" class="col-sm-12 col-md-6 col-lg-3 rounded-4 center_img" alt="...">
+
+
+      </div>
+
+      <h2 class=" my-4 fontstyle">Get in Touch</h2>
+
+      <form id="theform">
+
+        <div class="row">
+
+          <div class="mb-3 col-lg-6 col-12 ">
+            <input type="text" class=" form-control form_style" id="firstname" placeholder="Name">
+          </div>
+          <div class="mb-3 col-lg-6 col-12">
+            <input type="text" class=" form-control form_style" id="lastname" placeholder="Last Name">
+          </div>
+          <div class="mb-3 col-lg-6 col-12">
+            <input type="email" class=" form-control form_style" id="exampleFormControlInput1" placeholder="Email">
+          </div>
+          <div class="mb-3 col-lg-6 col-12">
+            <input type="digit" class=" form-control form_style" id="exampleFormControlInput1" placeholder="Phone Number">
+          </div>
+          <div class="mb-3">
+            <textarea class=" form-control form_style" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+          </div>
+  
+          
+        </div>
+      </form>
+
+      <div class="d-grid  col-3 mx-auto">
+
+        <button class="btn btn_design" type="submit">Submit</button>
+
+      </div>
+
     </div>
+
+    <!-- <img class="" src="copyright.png"> -->
+
+  </div>
 
   </div>
 
